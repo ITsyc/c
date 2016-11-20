@@ -13,5 +13,11 @@ int main(int argc, char *argv[])
     printf("you have expected to have %f bugs.\n", expected_bugs);
 
     double part_of_universe = expected_bugs / universe_of_defects;
-    printf("that is only a %e portion of the")
+    printf("that is only a %e portion of the universe.\n", part_of_universe);
+
+    char nul_byte = '\0';
+    int care_percentage = bugs * nul_byte;
+    printf("Which means you should care %d%%.\n", care_percentage);
+
+    return 0;
 }
