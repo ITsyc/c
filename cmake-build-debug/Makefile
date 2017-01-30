@@ -366,6 +366,33 @@ ex18.c.s:
 	$(MAKE) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/ex18.c.s
 .PHONY : ex18.c.s
 
+ex19.o: ex19.c.o
+
+.PHONY : ex19.o
+
+# target to build an object file
+ex19.c.o:
+	$(MAKE) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/ex19.c.o
+.PHONY : ex19.c.o
+
+ex19.i: ex19.c.i
+
+.PHONY : ex19.i
+
+# target to preprocess a source file
+ex19.c.i:
+	$(MAKE) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/ex19.c.i
+.PHONY : ex19.c.i
+
+ex19.s: ex19.c.s
+
+.PHONY : ex19.s
+
+# target to generate assembly for a file
+ex19.c.s:
+	$(MAKE) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/ex19.c.s
+.PHONY : ex19.c.s
+
 ex3.o: ex3.c.o
 
 .PHONY : ex3.o
@@ -591,6 +618,9 @@ help:
 	@echo "... ex18.o"
 	@echo "... ex18.i"
 	@echo "... ex18.s"
+	@echo "... ex19.o"
+	@echo "... ex19.i"
+	@echo "... ex19.s"
 	@echo "... ex3.o"
 	@echo "... ex3.i"
 	@echo "... ex3.s"

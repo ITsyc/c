@@ -109,6 +109,9 @@
 		<Unit filename="/Library/WebServer/Documents/c/ex18.c">
 			<Option target="c"/>
 		</Unit>
+		<Unit filename="/Library/WebServer/Documents/c/ex19.c">
+			<Option target="c"/>
+		</Unit>
 		<Unit filename="/Library/WebServer/Documents/c/ex3.c">
 			<Option target="c"/>
 		</Unit>
@@ -125,6 +128,9 @@
 			<Option target="c"/>
 		</Unit>
 		<Unit filename="/Library/WebServer/Documents/c/main.cpp">
+			<Option target="c"/>
+		</Unit>
+		<Unit filename="/Library/WebServer/Documents/c/object.h">
 			<Option target="c"/>
 		</Unit>
 		<Unit filename="/Library/WebServer/Documents/c/test1.c">

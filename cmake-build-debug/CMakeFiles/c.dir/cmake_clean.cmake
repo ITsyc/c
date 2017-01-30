@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/c.dir/ex16.c.o"
   "CMakeFiles/c.dir/ex17.c.o"
   "CMakeFiles/c.dir/ex18.c.o"
+  "CMakeFiles/c.dir/ex19.c.o"
   "c.pdb"
   "c"
 )
