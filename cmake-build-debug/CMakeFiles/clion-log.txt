@@ -1,4 +1,4 @@
-"/Users/MIOJI/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/163.10154.43/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Library/WebServer/Documents/c
+"/Users/MIOJI/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.121/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Library/WebServer/Documents/c
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Library/WebServer/Documents/c/cmake-build-debug

@@ -17,21 +17,21 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Library/WebServer/Documents/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Library/WebServer/Documents/c/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Library/WebServer/Documents/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Library/WebServer/Documents/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Library/WebServer/Documents/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Library/WebServer/Documents/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/Library/WebServer/Documents/c/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Library/WebServer/Documents/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Library/WebServer/Documents/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Library/WebServer/Documents/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Library/WebServer/Documents/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Library/WebServer/Documents/c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Library/WebServer/Documents/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Library/WebServer/Documents/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Library/WebServer/Documents/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Library/WebServer/Documents/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -44,13 +44,13 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Library/WebServer/Documents/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 c"/>
@@ -66,13 +66,13 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Library/WebServer/Documents/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 c/fast"/>
@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Library/WebServer/Documents/c/Makefile">
+			<Option target="c"/>
+		</Unit>
+		<Unit filename="/Library/WebServer/Documents/c/dbg.h">
+			<Option target="c"/>
+		</Unit>
 		<Unit filename="/Library/WebServer/Documents/c/ex10.c">
 			<Option target="c"/>
 		</Unit>
@@ -112,6 +118,12 @@
 		<Unit filename="/Library/WebServer/Documents/c/ex19.c">
 			<Option target="c"/>
 		</Unit>
+		<Unit filename="/Library/WebServer/Documents/c/ex19.h">
+			<Option target="c"/>
+		</Unit>
+		<Unit filename="/Library/WebServer/Documents/c/ex20.c">
+			<Option target="c"/>
+		</Unit>
 		<Unit filename="/Library/WebServer/Documents/c/ex3.c">
 			<Option target="c"/>
 		</Unit>
@@ -128,6 +140,9 @@
 			<Option target="c"/>
 		</Unit>
 		<Unit filename="/Library/WebServer/Documents/c/main.cpp">
+			<Option target="c"/>
+		</Unit>
+		<Unit filename="/Library/WebServer/Documents/c/obeject.c">
 			<Option target="c"/>
 		</Unit>
 		<Unit filename="/Library/WebServer/Documents/c/object.h">
